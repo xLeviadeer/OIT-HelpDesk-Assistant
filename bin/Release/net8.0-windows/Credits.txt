@@ -1,0 +1,6 @@
+Program developed and creates by Leviah Shaere Alma (dead name Christopher James Alma).
+Discord: xLevia
+GID: alma1cj
+YouTube: @nightdrago9893
+
+Program developed with .NET 8 using WPF (C#).

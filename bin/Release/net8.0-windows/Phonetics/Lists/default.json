@@ -1,0 +1,35 @@
+[
+    {
+        "section": 0,
+        "name": "default",
+        "author": "System",
+        "word_list": [
+            "a_default",
+            "b_default",
+            "c_default",
+            "d_default",
+            "e_default",
+            "f_default",
+            "g_default",
+            "h_default",
+            "i_default",
+            "j_default",
+            "k_default",
+            "l_default",
+            "m_default",
+            "n_default",
+            "o_default",
+            "p_default",
+            "q_default",
+            "r_default",
+            "s_default",
+            "t_default",
+            "u_default",
+            "v_default",
+            "w_default",
+            "x_default",
+            "y_default",
+            "z_default"
+        ]
+    }
+]

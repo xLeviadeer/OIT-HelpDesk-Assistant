@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Coding\\OIT-HelpDesk-Assistant\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0576EF79-AF0E-4BE2-BEC9-73A86BEC3D8B}|OIT HelpDesk Assistant v2.csproj|f:\\coding\\oit-helpdesk-assistant\\oit helpdesk assistant v2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0576EF79-AF0E-4BE2-BEC9-73A86BEC3D8B}|OIT HelpDesk Assistant v2.csproj|solutionrelative:oit helpdesk assistant v2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0576EF79-AF0E-4BE2-BEC9-73A86BEC3D8B}|OIT HelpDesk Assistant v2.csproj|f:\\coding\\oit-helpdesk-assistant\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0576EF79-AF0E-4BE2-BEC9-73A86BEC3D8B}|OIT HelpDesk Assistant v2.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0576EF79-AF0E-4BE2-BEC9-73A86BEC3D8B}|OIT HelpDesk Assistant v2.csproj|f:\\coding\\oit-helpdesk-assistant\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0576EF79-AF0E-4BE2-BEC9-73A86BEC3D8B}|OIT HelpDesk Assistant v2.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0576EF79-AF0E-4BE2-BEC9-73A86BEC3D8B}|OIT HelpDesk Assistant v2.csproj|f:\\coding\\oit-helpdesk-assistant\\kb.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0576EF79-AF0E-4BE2-BEC9-73A86BEC3D8B}|OIT HelpDesk Assistant v2.csproj|solutionrelative:kb.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 379,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OIT HelpDesk Assistant v2",
+              "DocumentMoniker": "F:\\Coding\\OIT-HelpDesk-Assistant\\OIT HelpDesk Assistant v2.csproj",
+              "RelativeDocumentMoniker": "OIT HelpDesk Assistant v2.csproj",
+              "ToolTip": "F:\\Coding\\OIT-HelpDesk-Assistant\\OIT HelpDesk Assistant v2.csproj",
+              "RelativeToolTip": "OIT HelpDesk Assistant v2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-24T19:39:52.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KB.txt",
+              "DocumentMoniker": "F:\\Coding\\OIT-HelpDesk-Assistant\\KB.txt",
+              "RelativeDocumentMoniker": "KB.txt",
+              "ToolTip": "F:\\Coding\\OIT-HelpDesk-Assistant\\KB.txt",
+              "RelativeToolTip": "KB.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-31T01:45:07.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Coding\\OIT-HelpDesk-Assistant\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "F:\\Coding\\OIT-HelpDesk-Assistant\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T18:06:13.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Coding\\OIT-HelpDesk-Assistant\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "F:\\Coding\\OIT-HelpDesk-Assistant\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T19:13:04.089Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

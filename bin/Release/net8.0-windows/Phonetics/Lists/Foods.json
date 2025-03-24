@@ -1,0 +1,35 @@
+[
+    {
+        "section": 2,
+        "name": "Foods",
+        "author": "System",
+        "word_list": [
+            "asparagus",
+            "brussels",
+            "carrot",
+            "dill",
+            "eggs",
+            "fish",
+            "grapes",
+            "huckleberry",
+            "icecream",
+            "jello",
+            "kale",
+            "lettuce",
+            "morels",
+            "nuts",
+            "olives",
+            "pasta",
+            "quince",
+            "raspberry",
+            "salmon",
+            "tangerine",
+            "umami",
+            "vanilla",
+            "watermelon",
+            "x-ray",
+            "yams",
+            "zucchini"
+        ]
+    }
+]

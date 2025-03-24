@@ -1,0 +1,48 @@
+﻿KB2:
+- Structure Information
+	- In this file, the format of JSON files is references several times. Some important information for modifying these files is listed below
+		- The root object of a JSON file is `[{ }]` or `[[ ]]`, everything you add must be inside of this "root object" separated by commas
+		- When something is listed inside of `<>` it is a name that you must to enter; if something is not inside of `<>` you cannot change it.
+- Deleting a Phonetic List as an Administrator:
+	1. Navigate to the HelpDeskAssistant shared drive location
+	2. Go to "Phonetics" then "Lists" and find the file with the name of the set you would like to delete. Delete this file to remove the set.
+- Adding Phonetics Sections
+	- A Phonetics Section is somewhat like a "folder" to put Phonetic Sets under. It's a label that is used to change where Phonetics show up in the interface and if they have a user warning when they are selected.
+	- To create a Phonetics Section 
+		1. Navigate to the HelpDeskAssistant shared drive location
+		2. Go to "Phonetics" then open the "Section.json" file in a text editor and add an object entry of form:
+			- {
+			- "name": "<name>",
+			- "warning": "<warning message>"
+			- }
+	- There are some very important warnings for editing Phonetics Sections:
+		- The Phonetics Section of a Phonetic Set is determined via it's index position in a list. This means removing/adding sections may throw off where phonetics are located because you are changing the indexes of the sections by adding/removing them.
+		- Section 0 is always "None", a section which is always hidden from users.
+		- Section 1 is always "Custom", the section where user created sets (when users use the "Create Set" button) go to.
+		- Phonetics Sections will no associated Phonetics Sets will be invisible until they have at least one item.
+		- It's a good idea to keep a backup of the "Phonetics" folder before making changes.
+- Changing the Associated Phonetics Section of Phonetics Set
+	1. Navigate to the HelpDeskAssistant shared drive location
+	2. Go to "Phonetics" then "Lists" and find the file with the name of the set you would like to change.
+	3. Open the file in a text editor and change the number for "section" to the associated index value in sections starting at 1 for "custom", 2 for "easy", etc.
+	- Note that you can also change the section to 0 to hide it from view without deleting it.
+- Adding Static Data Tabs
+	- The OIT HelpDesk Assistant program is broken into 2 main conceptual portions: the Phonetics portion and the Static Data portion.
+	- Phonetics is always the first tab of the program. It contains tool for users to create, read, update and delete (CRUD) phonetics.
+	- All other tabs of the program are called "Static Data Tabs". This because they contain static information that is read from files. 
+	- You can modify what Static Data Tabs exist and what information they have:
+	a. Adding a new Static Data Tab
+		1. Navigate to the HelpDeskAssistant shared drive location
+		2. Go to "Static" and create a new file named "<your name>.json"
+		3. Open the new file and create a root object and fill out the data as mentioned in B or copy an existing file as a template.
+			- The name for your new tab will be the same as the name of your file. It is caps sensitive.
+		- Added/removed Static Data Tabs will NOT refresh when clicking the refresh button. To see added/removed static data tabs please close and re-open the program.
+	b. Adding Information to Specific Static Data Tabs
+		1. Navigate to the HelpDeskAssistant shared drive location
+		2. Go to "Static" and open the desired file with a text editor. You can find the data for the tab you'd like to edit because the file will have the same name as the tab. You can add data using an object entry of form:
+			- "<name>": {
+			- "value": "<the phone number, building code or email>"
+			- "aliases": ["<alias 1>", "<alias 2>", "<etc.>"]
+			- }
+		- For further examples, please refer to existing Static Data 
+		- Note that there is no constraint on the length that names, values and aliases can be. Please use your best judgement about how long they should be.

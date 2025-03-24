@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "name": "easy",
+            "warning": null
+        },
+        {
+            "name": "hard",
+            "warning": null
+        },
+        {
+            "name": "joke",
+            "warning": "This section should not be taken seriously and should not be used with customers!"
+        }
+    ]
+]

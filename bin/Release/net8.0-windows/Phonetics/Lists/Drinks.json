@@ -1,0 +1,35 @@
+[
+    {
+        "section": 2,
+        "name": "Drinks",
+        "author": "System",
+        "word_list": [
+            "Apple",
+            "Beverage",
+            "Chocolate", 
+            "Drink",
+            "Espresso",
+            "Faygo",
+            "Gatorade",
+            "Hawaiian",
+            "Ice",
+            "Jaffa",
+            "Kool-Aid",
+            "Lemonade",
+            "Milk",
+            "Nectar",
+            "Orange",
+            "Pop",
+            "Quatro", 
+            "Raspberry", 
+            "Smoothie",
+            "Tea",
+            "Urge",
+            "Vitamin",
+            "Water",
+            "X-Ray",
+            "Yogi",
+            "Zoom" 
+        ]
+    }
+]

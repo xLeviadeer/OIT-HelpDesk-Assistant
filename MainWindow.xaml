@@ -1,0 +1,92 @@
+﻿<Window x:Class="OIT_HelpDesk_Assistant_v2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OIT_HelpDesk_Assistant_v2"
+        mc:Ignorable="d"
+        Title="OIT HelpDesk Assistant" 
+        Height="700" Width="Auto"
+        MinHeight="600"
+        MaxHeight="1500" MaxWidth="1200"
+        WindowStartupLocation="CenterScreen"
+        FontFamily="Arial Round MT Bold"
+        Icon="/Resource/main.ico"
+        KeyDown="Window_KeyDown"
+        KeyUp="Window_KeyUp">
+    <!-- Resources -->
+    <Window.Resources>
+        <Style TargetType="TabItem">
+            <Setter Property="Height" Value="27"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="5,5,5,0"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="5,3,5,3"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="MaxLength" Value="80"/>
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Margin" Value="5,3,5,3"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="5,3,5,3"/>
+        </Style>
+    </Window.Resources>
+
+    <!-- Window Layout -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition x:Name="TabControlRow" Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition x:Name="RefreshColumn" Width="75"/>
+        </Grid.ColumnDefinitions>
+        <TabControl Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="2" x:Name="AllTabs" TabStripPlacement="Top" SelectedIndex="0">
+            <TabItem Header="Phonetics">
+                <Grid ShowGridLines="False" Margin="10,0,10,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <!-- Spacing -->
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="1*"/>
+                        <!-- Spacing -->
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="1*"/>
+                        <!-- Spacing -->
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="50*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Text="Input Text"/>
+                    <TextBox Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" x:Name="Phonetics_InputTextBox" Padding="3,0,3,0" TextWrapping="NoWrap" MaxLines="1" TextChanged="Phonetics_InputTextBox_TextChanged"/>
+                    <TextBlock Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="4" Text="Phonetics Type"/>
+                    <ComboBox Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="3" x:Name="Phonetics_TypeComboBox" IsReadOnly="True" SelectionChanged="Phonetics_TypeComboBox_SelectionChanged"/>
+                    <Button Grid.Row="5" Grid.Column="3" x:Name="Phonetics_CreateButton" Content="Create Set" ToolTip="Create a new phonetics set" Click="Phonetics_CreateButton_Click"/>
+                    <Button Grid.Row="6" Grid.Column="3" x:Name="Phonetics_DeleteButton" Content="Delete Set" ToolTip="Delete the currently selected set" Click="Phonetics_DeleteButton_Click"/>
+                    <Button Grid.Row="6" Grid.Column="2" x:Name="Phonetics_ModifyButton" Content="Modify Set" ToolTip="Modify the currently selected set" Click="Phonetics_ModifyButton_Click"/>
+                    <Button Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" x:Name="Phonetics_ChangeButton" Content="Change to New Random" ToolTip="[Enter] If the current phonetics output is a Section, change it to a new random from that section" IsEnabled="False" Click="Phonetics_ChangeButton_Click"/>
+                    <TextBlock Grid.Row="8" Grid.Column="0" Text="Ouput"/>
+                    <TextBox Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="4" x:Name="Phonetics_OuputTextBox" Padding="5,5,5,5" VerticalContentAlignment="Top" IsReadOnly="True" TextWrapping="NoWrap" VerticalScrollBarVisibility="Auto" Background="#FFEAEAEA"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Button Grid.Row="0" Grid.Column="1" x:Name="RefreshButton" Content="Refresh" ToolTip="Refreshes for any live-data updates" Click="RefreshButton_Click"/>
+    </Grid>
+</Window>

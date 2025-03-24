@@ -1,0 +1,35 @@
+[
+    {
+        "section": 3,
+        "name": "Animals",
+        "author": "System",
+        "word_list": [
+            "ant",
+            "bunny",
+            "cat",
+            "dog",
+            "eagle",
+            "ferret",
+            "giraffe",
+            "hamster",
+            "iguana",
+            "jellyfish",
+            "kangaroo",
+            "lion",
+            "mouse",
+            "narwhal",
+            "owl",
+            "panda",
+            "quail",
+            "raccoon",
+            "skunk",
+            "tiger",
+            "urchin",
+            "vampire",
+            "warbler",
+            "x-ray",
+            "yak",
+            "zebra"
+        ]
+    }
+]

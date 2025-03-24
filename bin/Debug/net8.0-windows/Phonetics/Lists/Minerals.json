@@ -1,0 +1,35 @@
+[
+    {
+        "section": 3,
+        "name": "Minerals",
+        "author": "System",
+        "word_list": [
+            "Ammonium",
+            "Basalt",
+            "Cadmium",
+            "Diamond",
+            "Emeril",
+            "Ferrite",
+            "Graphene",
+            "Hematite",
+            "Indium",
+            "Jade",
+            "Kerogen",
+            "Laterite",
+            "Malachite",
+            "Nitrogen",
+            "Oxygen",
+            "Platinum",
+            "Quartz",
+            "Resin",
+            "Sphalerite",
+            "Tungsten",
+            "Urainium",
+            "Vitalium",
+            "Wolframite",
+            "Xalostocite",
+            "Yangite",
+            "Zinc"
+        ]
+    }
+]

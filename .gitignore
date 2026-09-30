@@ -12,6 +12,9 @@ obj/
 # visual studio
 .vs/
 
+# user cs proj
+OIT HelpDesk Assistant v2.csproj.user
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json

@@ -5,6 +5,13 @@
 # static data restrictions
 Datasets Backup/*
 
+# build
+bin/
+obj/
+
+# visual studio
+.vs/
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json

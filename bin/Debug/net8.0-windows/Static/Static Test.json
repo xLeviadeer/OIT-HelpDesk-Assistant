@@ -1,8 +1,0 @@
-[
-  {
-    "Some Item": {
-      "value": "a value",
-      "aliases": ["test", "some test", "some alias"]
-    }
-  }
-]
